@@ -1,0 +1,12 @@
+#!/bin/sh
+echo hello
+sleep 5;
+python3 get-pip.py
+sleep 5;
+pip3 install psycopg2-binary
+pip3 install requests
+pip3 install schedule
+pip3 install python-dotenv
+sleep 5;
+python3 script_bd.py
+python3 script_weather.py
