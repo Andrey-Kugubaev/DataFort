@@ -1,5 +1,4 @@
 # Тестовое задание на позицию python-разработчик в компанию DataFort
-
 ![python](https://img.shields.io/badge/python-3.9-green)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14.6-green)
 ![schedule](https://img.shields.io/badge/schedule-1.1.0-green)
@@ -66,7 +65,7 @@ _Информация собирается с сайта https://openweathermap.
 ### <anchor>Инструкция по запуску</anchor>
 
 1. Создаем .env и заполняем переменные окружения:
-`APPID= ваша api-ключ от сайта https://openweathermap.org/`
+`APPID= ваш api-ключ от сайта https://openweathermap.org/`
 `DATAFILE=адрес файла со списком городов`
 `DB_ENGINE=postgres
 DB_NAME=postgres
